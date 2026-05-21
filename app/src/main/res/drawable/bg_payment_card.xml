@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    bg_payment_card.xml
+    ─────────────────────────────────────────────────────────
+    Selector drawable for each payment method card.
+
+    • Default  : white background, light gray border, 14dp corners
+    • Selected : white background, accent_blue border (2dp), soft
+                 accent_blue_light background tint
+
+    Used as android:background on the FrameLayout cards in
+    activity_payment.xml. The selected state is toggled from
+    PaymentActivity.kt via view.isSelected = true/false.
+    ─────────────────────────────────────────────────────────
+-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- SELECTED state -->
+    <item android:state_selected="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/accent_blue_light" />
+            <stroke android:width="2dp" android:color="@color/accent_blue" />
+            <corners android:radius="14dp" />
+        </shape>
+    </item>
+
+    <!-- DEFAULT (not selected) state -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/bg_surface" />
+            <stroke android:width="1dp" android:color="@color/border_light" />
+            <corners android:radius="14dp" />
+        </shape>
+    </item>
+
+</selector>

@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-mergeDebugResources-46:\\layout\\fragment_admin_add_product.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-main-49:\\layout\\fragment_admin_add_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-mergeDebugResources-46:\\layout\\dialog_product.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-main-49:\\layout\\dialog_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-mergeDebugResources-46:\\layout\\fragment_admin_orders.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-main-49:\\layout\\fragment_admin_orders.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-mergeDebugResources-46:\\layout\\activity_forgot_password.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-main-49:\\layout\\activity_forgot_password.xml"
+    },
+    {
+        "merged": "com.shopapp-mergeDebugResources-46:/layout/item_admin_product.xml",
+        "source": "com.shopapp-main-49:/layout/item_admin_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-mergeDebugResources-46:\\layout\\item_order.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-main-49:\\layout\\item_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-mergeDebugResources-46:\\layout\\fragment_admin_profile.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-main-49:\\layout\\fragment_admin_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-mergeDebugResources-46:\\layout\\fragment_admin_settings.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-main-49:\\layout\\fragment_admin_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-mergeDebugResources-46:\\layout\\fragment_orders.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-main-49:\\layout\\fragment_orders.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-mergeDebugResources-46:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-main-49:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-mergeDebugResources-46:\\layout\\item_product.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-main-49:\\layout\\item_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-mergeDebugResources-46:\\layout\\fragment_admin_products.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-main-49:\\layout\\fragment_admin_products.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-mergeDebugResources-46:\\layout\\activity_order_success.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-main-49:\\layout\\activity_order_success.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-mergeDebugResources-46:\\layout\\activity_product_detail.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-main-49:\\layout\\activity_product_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-mergeDebugResources-46:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-main-49:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-mergeDebugResources-46:\\layout\\activity_admin.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-main-49:\\layout\\activity_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-mergeDebugResources-46:\\layout\\activity_map_picker.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-main-49:\\layout\\activity_map_picker.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-mergeDebugResources-46:\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-main-49:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-mergeDebugResources-46:\\layout\\fragment_cart.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-main-49:\\layout\\fragment_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-mergeDebugResources-46:\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-main-49:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-mergeDebugResources-46:\\layout\\fragment_admin_finance.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-main-49:\\layout\\fragment_admin_finance.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-mergeDebugResources-46:\\layout\\item_promo_banner.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-main-49:\\layout\\item_promo_banner.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-mergeDebugResources-46:\\layout\\activity_staff.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-main-49:\\layout\\activity_staff.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-mergeDebugResources-46:\\layout\\activity_payment.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-main-49:\\layout\\activity_payment.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-mergeDebugResources-46:\\layout\\item_cart.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-main-49:\\layout\\item_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-mergeDebugResources-46:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-main-49:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-mergeDebugResources-46:\\layout\\activity_register.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-main-49:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-mergeDebugResources-46:\\layout\\item_admin_product.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-main-49:\\layout\\item_admin_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-mergeDebugResources-46:\\layout\\activity_view_order_location.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-main-49:\\layout\\activity_view_order_location.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-mergeDebugResources-46:\\layout\\fragment_staff_profile.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-main-49:\\layout\\fragment_staff_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-mergeDebugResources-46:\\layout\\item_admin_order.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-main-49:\\layout\\item_admin_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-mergeDebugResources-46:\\layout\\activity_order_tracking.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.4\\com.shopapp-main-49:\\layout\\activity_order_tracking.xml"
+    }
+]

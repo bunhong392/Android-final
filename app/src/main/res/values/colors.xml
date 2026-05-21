@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- === Gen Z White/Gray Modern Palette === -->
+
+    <!-- Backgrounds -->
+    <color name="bg_page">#F5F5F7</color>
+    <color name="bg_surface">#FFFFFF</color>
+    <color name="bg_input">#F2F2F4</color>
+    <color name="bg_card">#FFFFFF</color>
+    <color name="bg_purple_light">#F0EFFF</color>
+
+    <!-- Grays -->
+    <color name="gray_50">#FAFAFA</color>
+    <color name="gray_100">#F5F5F7</color>
+    <color name="gray_200">#E8E8EC</color>
+    <color name="gray_300">#D1D1D9</color>
+    <color name="gray_400">#A0A0B0</color>
+    <color name="gray_500">#6B6B80</color>
+    <color name="gray_600">#4A4A5A</color>
+    <color name="gray_900">#1A1A2E</color>
+
+    <!-- Accent - Charcoal/Slate for Gen Z minimalism -->
+    <color name="accent_dark">#1A1A2E</color>
+    <color name="accent_mid">#2D2D44</color>
+    <color name="accent_blue">#4F46E5</color>
+    <color name="accent_blue_light">#EEF2FF</color>
+    <color name="accent_blue_mid">#818CF8</color>
+
+    <!-- Text -->
+    <color name="text_primary">#1A1A2E</color>
+    <color name="text_secondary">#6B6B80</color>
+    <color name="text_hint">#A0A0B0</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_on_dark">#FFFFFF</color>
+
+    <!-- Borders -->
+    <color name="border_light">#E8E8EC</color>
+    <color name="border_medium">#D1D1D9</color>
+
+    <!-- Semantic -->
+    <color name="success">#16A34A</color>
+    <color name="success_bg">#F0FDF4</color>
+    <color name="error">#DC2626</color>
+    <color name="error_bg">#FEF2F2</color>
+    <color name="warning">#D97706</color>
+    <color name="warning_bg">#FFFBEB</color>
+
+    <!-- Order status -->
+    <color name="status_pending">#D97706</color>
+    <color name="status_confirmed">#3B6EE7</color>
+    <color name="status_delivering">#7C3AED</color>
+    <color name="status_delivered">#16A34A</color>
+
+    <!-- Legacy aliases (keep for compatibility) -->
+    <color name="primary">#F5F5F7</color>
+    <color name="primary_dark">#FFFFFF</color>
+    <color name="accent">#4F46E5</color>
+    <color name="accent_light">#818CF8</color>
+    <color name="surface">#EEF2FF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="card_bg">#FFFFFF</color>
+    <color name="divider">#E8E8EC</color>
+    <color name="black">#1A1A2E</color>
+
+    <!-- Purple palette kept for admin screens -->
+    <color name="purple_50">#EEF2FF</color>
+    <color name="purple_100">#E0E7FF</color>
+    <color name="purple_200">#C7D2FE</color>
+    <color name="purple_400">#818CF8</color>
+    <color name="purple_600">#4F46E5</color>
+    <color name="purple_800">#3730A3</color>
+    <color name="purple_900">#1E1B4B</color>
+    <color name="meas">#f6a81d</color>
+</resources>

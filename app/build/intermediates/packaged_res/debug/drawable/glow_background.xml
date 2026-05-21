@@ -1,0 +1,21 @@
+<!-- res/drawable/glow_background.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#000000"/>
+            <corners android:radius="30dp"/>
+        </shape>
+    </item>
+
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#ffff"/>
+            <stroke
+                android:width="2dp"
+                android:color="@color/meas"/>
+            <corners android:radius="30dp"/>
+        </shape>
+    </item>
+
+</layer-list>

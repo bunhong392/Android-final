@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- item_promo_banner.xml -->
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="260dp"
+    android:layout_height="match_parent"
+    android:layout_marginEnd="10dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="2dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Background colour (set programmatically per banner) -->
+        <View
+            android:id="@+id/bannerBg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFCA28" />
+
+        <!-- Promo text block -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginStart="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvBannerLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HTH party ✦"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvBannerTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Up to\n50% off*"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:id="@+id/tvBannerSub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*T&amp;Cs apply."
+                android:textColor="#E0E0E0"
+                android:textSize="11sp"
+                android:layout_marginTop="6dp" />
+        </LinearLayout>
+
+        <!-- Emoji / illustration placeholder (right side) -->
+        <TextView
+            android:id="@+id/tvBannerEmoji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="🍕"
+            android:textSize="52sp" />
+    </FrameLayout>
+
+</androidx.cardview.widget.CardView>

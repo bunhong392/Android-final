@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#4F46E5</color>
+    <color name="accent_blue">#4F46E5</color>
+    <color name="accent_blue_light">#EEF2FF</color>
+    <color name="accent_blue_mid">#818CF8</color>
+    <color name="accent_dark">#1A1A2E</color>
+    <color name="accent_light">#818CF8</color>
+    <color name="accent_mid">#2D2D44</color>
+    <color name="bg_card">#FFFFFF</color>
+    <color name="bg_input">#F2F2F4</color>
+    <color name="bg_page">#F5F5F7</color>
+    <color name="bg_purple_light">#F0EFFF</color>
+    <color name="bg_surface">#FFFFFF</color>
+    <color name="black">#1A1A2E</color>
+    <color name="border_light">#E8E8EC</color>
+    <color name="border_medium">#D1D1D9</color>
+    <color name="card_bg">#FFFFFF</color>
+    <color name="divider">#E8E8EC</color>
+    <color name="error">#DC2626</color>
+    <color name="error_bg">#FEF2F2</color>
+    <color name="gray_100">#F5F5F7</color>
+    <color name="gray_200">#E8E8EC</color>
+    <color name="gray_300">#D1D1D9</color>
+    <color name="gray_400">#A0A0B0</color>
+    <color name="gray_50">#FAFAFA</color>
+    <color name="gray_500">#6B6B80</color>
+    <color name="gray_600">#4A4A5A</color>
+    <color name="gray_900">#1A1A2E</color>
+    <color name="meas">#f6a81d</color>
+    <color name="primary">#F5F5F7</color>
+    <color name="primary_dark">#FFFFFF</color>
+    <color name="purple_100">#E0E7FF</color>
+    <color name="purple_200">#C7D2FE</color>
+    <color name="purple_400">#818CF8</color>
+    <color name="purple_50">#EEF2FF</color>
+    <color name="purple_600">#4F46E5</color>
+    <color name="purple_800">#3730A3</color>
+    <color name="purple_900">#1E1B4B</color>
+    <color name="status_confirmed">#3B6EE7</color>
+    <color name="status_delivered">#16A34A</color>
+    <color name="status_delivering">#7C3AED</color>
+    <color name="status_pending">#D97706</color>
+    <color name="success">#16A34A</color>
+    <color name="success_bg">#F0FDF4</color>
+    <color name="surface">#EEF2FF</color>
+    <color name="text_hint">#A0A0B0</color>
+    <color name="text_on_dark">#FFFFFF</color>
+    <color name="text_primary">#1A1A2E</color>
+    <color name="text_secondary">#6B6B80</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="warning">#D97706</color>
+    <color name="warning_bg">#FFFBEB</color>
+    <color name="white">#FFFFFF</color>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="admin_panel">Admin Panel</string>
+    <string name="all">All</string>
+    <string name="amount_paid">Amount Paid</string>
+    <string name="app_name">ShopApp</string>
+    <string name="app_tagline">Your one-stop shop</string>
+    <string name="back_home">Back to Home</string>
+    <string name="back_to_login">Back to Login</string>
+    <string name="cart">Cart</string>
+    <string name="cart_empty">Your cart is empty 🛒</string>
+    <string name="category">Category</string>
+    <string name="checkout">Checkout</string>
+    <string name="clothing">Clothing</string>
+    <string name="confirm_location">✅  Confirm This Location</string>
+    <string name="create_account">Create Account</string>
+    <string name="dark_mode">🌙 Dark Mode</string>
+    <string name="delete">Delete</string>
+    <string name="delivery_address">📍 Delivery Address</string>
+    <string name="drinks">Drinks</string>
+    <string name="edit">Edit</string>
+    <string name="electronics">Electronics</string>
+    <string name="email">Email</string>
+    <string name="email_failed">Email could not be sent</string>
+    <string name="email_sent">Email Sent!</string>
+    <string name="email_sent_hint">Check your inbox for the temporary\npassword and use it to login.</string>
+    <string name="english">English</string>
+    <string name="enter_address">Enter your delivery address</string>
+    <string name="estimated_delivery">🕒 Estimated Delivery</string>
+    <string name="estimated_delivery_time">Estimated delivery: 30 – 45 minutes</string>
+    <string name="food">Food</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="gcm_defaultSenderId" translatable="false">387637191674</string>
+    <string name="good_day">Good day 👋</string>
+    <string name="google_api_key" translatable="false">AIzaSyBPlKdgNt5-1gSlLKlXfuL9uiV1j5HMHMk</string>
+    <string name="google_app_id" translatable="false">1:387637191674:android:fcea7941ae0251d3d53a43</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBPlKdgNt5-1gSlLKlXfuL9uiV1j5HMHMk</string>
+    <string name="google_storage_bucket" translatable="false">shopapp-1f1ea.firebasestorage.app</string>
+    <string name="home">Home</string>
+    <string name="khmer">ខ្មែរ (Khmer)</string>
+    <string name="language">Language</string>
+    <string name="light_mode">☀️ Light Mode</string>
+    <string name="login">Login</string>
+    <string name="logout">Log out</string>
+    <string name="my_cart">My Cart 🛒</string>
+    <string name="my_orders">My Orders 📋</string>
+    <string name="name">Full Name</string>
+    <string name="no_account">Don\'t have an account? Register</string>
+    <string name="no_orders">No orders yet</string>
+    <string name="no_products">No products found</string>
+    <string name="no_products_admin">No products found</string>
+    <string name="order_being_prepared">Your order is being prepared</string>
+    <string name="order_placed">Order Placed!</string>
+    <string name="order_received">✅  Order Received</string>
+    <string name="order_success">Order Placed Successfully!</string>
+    <string name="order_summary">Order Summary</string>
+    <string name="order_tracking">📦 Order Tracking</string>
+    <string name="orders">Orders</string>
+    <string name="password">Password</string>
+    <string name="password_reset_success">Your password has been reset.\nWrite down this temporary password and use it to login:</string>
+    <string name="pay_now">Pay Now</string>
+    <string name="payment">Payment</string>
+    <string name="payment_method">💳 Payment Method</string>
+    <string name="payment_method_label">Payment Method</string>
+    <string name="phone">Phone Number</string>
+    <string name="pick_delivery_location">Pick Delivery Location</string>
+    <string name="pick_on_map">📌 Pick Location on Map</string>
+    <string name="proceed_checkout">Proceed to Checkout</string>
+    <string name="processing">Processing…</string>
+    <string name="products">Products</string>
+    <string name="profile">Profile</string>
+    <string name="project_id" translatable="false">shopapp-1f1ea</string>
+    <string name="register">Register</string>
+    <string name="save_product">Save product</string>
+    <string name="search_hint">Search products…</string>
+    <string name="select_language">Select Language</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_in_btn">Sign In</string>
+    <string name="sign_up_tagline">Sign up to get started</string>
+    <string name="tap_add">Tap + Add to create one</string>
+    <string name="tap_map_hint">📍 Tap on map to select location</string>
+    <string name="tap_map_instruction">Tap anywhere on the map to set your delivery address</string>
+    <string name="temp_password_label">TEMPORARY PASSWORD</string>
+    <string name="total">Total</string>
+    <string name="update">Update</string>
+    <string name="update_status">Update status:</string>
+    <string name="welcome_back">Welcome back</string>
+    <string name="your_order_id">Your Order ID</string>
+    <style name="ButtonPrimary" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/accent_dark</item>
+        <item name="android:textColor">@color/text_white</item>
+        <item name="cornerRadius">14dp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+    <style name="CardWhite" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/bg_card</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="strokeColor">@color/border_light</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+    <style name="InputOutlined" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/border_medium</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxBackgroundColor">@color/bg_input</item>
+        <item name="hintTextColor">@color/text_hint</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+    </style>
+    <style name="NavIndicatorShape" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="NavIndicatorStyle">
+        <item name="android:color">@color/accent_blue_light</item>
+        <item name="shapeAppearance">@style/NavIndicatorStyle</item>
+    </style>
+    <style name="Theme.ShopApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/text_white</item>
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorOnSecondary">@color/text_white</item>
+        <item name="android:statusBarColor">@color/bg_surface</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowBackground">@color/bg_page</item>
+    </style>
+    <style name="Theme.ShopApp.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/meas</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.ShopApp</item>
+    </style>
+</resources>

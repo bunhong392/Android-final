@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ShopApp</string>
+    <string name="app_tagline">Your one-stop shop</string>
+    <string name="good_day">Good day 👋</string>
+
+    <!-- Auth -->
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="name">Full Name</string>
+    <string name="phone">Phone Number</string>
+    <string name="welcome_back">Welcome back</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_in_btn">Sign In</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="no_account">Don\'t have an account? Register</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_up_tagline">Sign up to get started</string>
+    <string name="back_to_login">Back to Login</string>
+    <string name="temp_password_label">TEMPORARY PASSWORD</string>
+    <string name="password_reset_success">Your password has been reset.\nWrite down this temporary password and use it to login:</string>
+    <string name="email_sent">Email Sent!</string>
+    <string name="email_sent_hint">Check your inbox for the temporary\npassword and use it to login.</string>
+    <string name="email_failed">Email could not be sent</string>
+
+    <!-- Nav / Home -->
+    <string name="home">Home</string>
+    <string name="cart">Cart</string>
+    <string name="orders">Orders</string>
+    <string name="profile">Profile</string>
+    <string name="search_hint">Search products…</string>
+    <string name="all">All</string>
+    <string name="no_products">No products found</string>
+
+    <!-- Cart -->
+    <string name="my_cart">My Cart 🛒</string>
+    <string name="cart_empty">Your cart is empty 🛒</string>
+    <string name="proceed_checkout">Proceed to Checkout</string>
+
+    <!-- Orders -->
+    <string name="my_orders">My Orders 📋</string>
+    <string name="no_orders">No orders yet</string>
+
+    <!-- Product -->
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="checkout">Checkout</string>
+
+    <!-- Payment -->
+    <string name="payment">Payment</string>
+    <string name="delivery_address">📍 Delivery Address</string>
+    <string name="payment_method">💳 Payment Method</string>
+    <string name="order_summary">Order Summary</string>
+    <string name="total">Total</string>
+    <string name="pick_on_map">📌 Pick Location on Map</string>
+    <string name="pay_now">Pay Now</string>
+    <string name="processing">Processing…</string>
+    <string name="enter_address">Enter your delivery address</string>
+    <string name="payment_method_label">Payment Method</string>
+    <string name="amount_paid">Amount Paid</string>
+    <string name="estimated_delivery">🕒 Estimated Delivery</string>
+
+    <!-- Map picker -->
+    <string name="pick_delivery_location">Pick Delivery Location</string>
+    <string name="tap_map_instruction">Tap anywhere on the map to set your delivery address</string>
+    <string name="tap_map_hint">📍 Tap on map to select location</string>
+    <string name="confirm_location">✅  Confirm This Location</string>
+
+    <!-- Order tracking / success -->
+    <string name="order_tracking">📦 Order Tracking</string>
+    <string name="order_received">✅  Order Received</string>
+    <string name="order_success">Order Placed Successfully!</string>
+    <string name="order_placed">Order Placed!</string>
+    <string name="order_being_prepared">Your order is being prepared</string>
+    <string name="your_order_id">Your Order ID</string>
+    <string name="estimated_delivery_time">Estimated delivery: 30 – 45 minutes</string>
+    <string name="back_home">Back to Home</string>
+
+    <!-- Profile / Settings -->
+    <string name="logout">Log out</string>
+    <string name="language">Language</string>
+    <string name="select_language">Select Language</string>
+    <string name="english">English</string>
+    <string name="khmer">ខ្មែរ (Khmer)</string>
+    <string name="dark_mode">🌙 Dark Mode</string>
+    <string name="light_mode">☀️ Light Mode</string>
+
+    <!-- Admin -->
+    <string name="admin_panel">Admin Panel</string>
+    <string name="products">Products</string>
+    <string name="no_products_admin">No products found</string>
+    <string name="tap_add">Tap + Add to create one</string>
+    <string name="food">Food</string>
+    <string name="drinks">Drinks</string>
+    <string name="electronics">Electronics</string>
+    <string name="clothing">Clothing</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="update">Update</string>
+    <string name="update_status">Update status:</string>
+    <string name="save_product">Save product</string>
+    <string name="category">Category</string>
+</resources>

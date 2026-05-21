@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    activity_map_picker.xml
+    ─────────────────────────────────────────────────────────────
+    Layout for MapPickerActivity.
+    New features added:
+      • Search bar (EditText + ProgressBar) at the top
+      • Search results ListView (hidden until results arrive)
+      • "My Location" FAB (ImageButton) floating over the map
+    ─────────────────────────────────────────────────────────────
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_page">
+
+    <!-- ── Header ────────────────────────────────────────────── -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_surface"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:elevation="4dp">
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="📌"-->
+<!--            android:textSize="22sp" />-->
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:text="Add delivery location"
+            android:textColor="@color/text_primary"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- ── Search bar card ───────────────────────────────────── -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/bg_surface"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="4dp"
+        android:elevation="3dp">
+
+        <!-- Search row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:background="@drawable/bg_spinner"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingStart="12dp"
+            android:paddingEnd="4dp">
+
+            <!-- 🔍 icon -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🔍"
+                android:textSize="16sp"
+                android:paddingEnd="6dp" />
+
+            <EditText
+                android:id="@+id/etSearchLocation"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:hint="Search location…"
+                android:textSize="14sp"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_hint"
+                android:background="@null"
+                android:imeOptions="actionSearch"
+                android:inputType="text"
+                android:singleLine="true"
+                android:maxLines="1" />
+
+            <ProgressBar
+                android:id="@+id/progressSearch"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginEnd="6dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <!-- Search results dropdown -->
+        <ListView
+            android:id="@+id/lvSearchResults"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxHeight="200dp"
+            android:scrollbars="vertical"
+            android:divider="@color/border_light"
+            android:dividerHeight="0.5dp"
+            android:background="@color/bg_surface"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <!-- ── Instruction strip ─────────────────────────────────── -->
+    <TextView
+        android:id="@+id/tvInstruction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:paddingVertical="8dp"
+        android:paddingHorizontal="16dp"
+        android:text="📍 Auto-locating you… or tap anywhere on the map"
+        android:textColor="@color/text_white"
+        android:textSize="12sp"
+        android:gravity="center" />
+
+    <!-- ── Map + FAB (FrameLayout so FAB floats over map) ──────── -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <!-- Google Map -->
+        <fragment
+            android:id="@+id/mapPicker"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <!-- My Location FAB -->
+        <ImageButton
+            android:id="@+id/btnMyLocation"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="16dp"
+            android:background="@color/bg_surface"
+            android:elevation="6dp"
+            android:src="@android:drawable/ic_menu_mylocation"
+            android:tint="@color/accent_blue"
+            android:contentDescription="My location"
+            android:padding="10dp"
+            android:scaleType="fitCenter" />
+
+    </FrameLayout>
+
+    <!-- ── Bottom panel ──────────────────────────────────────── -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_surface"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:elevation="8dp">
+
+        <TextView
+            android:id="@+id/tvPickedAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Tap on map to select location"
+            android:textColor="@color/text_secondary"
+            android:textSize="14sp"
+            android:layout_marginBottom="12dp"
+            android:minLines="2" />
+
+<!--        <Button-->
+<!--            android:id="@+id/btnConfirmLocation"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="52dp"-->
+<!--            android:text="Confirm Location"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="15sp"-->
+<!--            android:textColor="@color/text_white"-->
+<!--            android:backgroundTint="@color/accent_blue"-->
+<!--            style="@style/Widget.MaterialComponents.Button" />-->
+        <Button
+            android:id="@+id/btnConfirmLocation"
+            style="@style/ButtonPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm Location"
+            android:textAllCaps="false"
+            android:textColor="@color/text_white"
+            android:textSize="15sp"
+
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

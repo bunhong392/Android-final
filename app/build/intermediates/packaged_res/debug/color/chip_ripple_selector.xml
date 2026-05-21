@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Chip ripple/hover color selector.
+    Pressed/hovered state uses #1A1A2E (dark navy) at 20% alpha for a visible but subtle ripple.
+    Default (unchecked, not pressed) is fully transparent.
+-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Pressed ripple: #1A1A2E @ 20% opacity -->
+    <item android:color="#331A1A2E" android:state_pressed="true" />
+    <!-- Focused/hovered: same color, slightly lighter -->
+    <item android:color="#1A1A1A2E" android:state_focused="true" />
+    <!-- Default: transparent -->
+    <item android:color="#00000000" />
+</selector>
